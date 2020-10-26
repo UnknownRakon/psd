@@ -8,7 +8,7 @@ header, nav, article, footer{
 body {
     width: 100%;
     height: 100%;
-    background-image: url(img/background.png);
+    background-color: #fafafa;
 }
 header{
     width: 100%;
@@ -98,4 +98,9 @@ div.search>.buttonPoisk{
 }
 div.search>.buttonPoisk>img{
     margin-right: 5px;
+}
+.big_sushi{
+    position: absolute;
+    top: 42%;
+    left: 54%;
 }
