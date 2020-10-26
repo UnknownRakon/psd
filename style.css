@@ -65,3 +65,37 @@ nav{
     float: left;
     margin-right: 15px;
 }
+div.search{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width:280px;
+    background: #ffffff;
+    border-radius: 8px;
+    height:45px;
+    padding-left: 15px;
+}
+div.search>input.poisk{
+    border: none; 
+    outline: none;
+    height: 45px;
+    width:190px;
+    font-style: italic;
+    font-family: "Arial Narrow", sans-serif;
+    color:#d7d3d3;
+}
+div.search>.buttonPoisk{
+    background-color: #ad1e17;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px;
+    background-image: url(img/search.png) no-repeat left;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+div.search>.buttonPoisk>img{
+    margin-right: 5px;
+}
