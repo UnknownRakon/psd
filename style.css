@@ -9,6 +9,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #fafafa;
+    overflow-x:hidden;
 }
 header{
     width: 100%;
@@ -28,7 +29,7 @@ header{
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-nav{
+#menu{
     float:right;
     width:200px;
     height:145px;
@@ -103,4 +104,60 @@ div.search>.buttonPoisk>img{
     position: absolute;
     top: 42%;
     left: 54%;
+}
+nav{
+    width: 80%;
+    height: 150px;
+    margin: 100px auto 100px auto;
+}
+nav>h2{
+    color:#522c25;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    margin-bottom: 55px;
+}
+ul.food{
+    list-style: none;
+    width:100%;
+}
+ul.food > li{
+    float: left;
+    vertical-align: bottom;
+    width: 8.3%;
+    height: 77px;
+}
+ul.food > li > a{
+                display: block;
+                width: 100%;
+                height: 100%;
+                text-decoration: none;
+                text-align: center;
+                color: #000000;
+                opacity: 0.5;
+                filter: grayscale(100%);
+                transition: 0.5s;
+}
+ul.food > li > a > img{
+                    margin:0 auto 15px auto;
+                    display: block;
+                    height: 30px;
+}
+ul.food > li > a:hover{
+    opacity: 1;
+    filter: grayscale(0%);
+}
+section.products{
+    width: 90%;
+}
+div.left-right{
+    float: right;
+}
+div.left-right > button{
+                        background: none;
+                        border: none;
+                        outline: none;
+}
+div.left-right > button:first-child{
+    margin-right: 10px;
 }
