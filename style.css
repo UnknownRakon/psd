@@ -236,6 +236,56 @@ section.reviews > .svg{
     width: 100%;
 }
 .review{
-    width: 430px;
-    height: 500px;
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    bottom: 11%;
+    right: 12%;
+    border-radius: 1%;
+}
+.who{
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 40px;
+
+}
+.who > .photo{
+    float: right;
+}
+.who > .text{
+    color: #a0a0a0;
+    font-family: "Arial Narrow";
+    font-size: 15px;
+    display: block;
+    width: 280px;
+    margin-top: 5px;
+}
+.who > .signature{
+    color: #000000;
+    font-size: 14px;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-top: 20px;    
+    float: left;
+}
+.who > .date{
+    margin-top: 21px; 
+    margin-left: 150px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: #a0a0a0;
+}
+.review > button{
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 20%;
+    margin-top: 20px;
+    transition-property: margin-top;
+    transition: 0.1s;
+}
+.review > button:active{
+    margin-top: 25px;
 }
