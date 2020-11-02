@@ -230,6 +230,7 @@ section.reviews{
     height: 500px;
     position: relative;
     background-color: #a41b15;
+    margin-bottom: 370px;
 }
 section.reviews > .svg{
     position: absolute;
@@ -335,4 +336,99 @@ section.reviews > .svg{
     font-size: 16px;
     display: block;
     width: 450px;
+}
+footer{
+    height: 71px;
+    width: 100%;
+    background: url(img/footer.png);
+    outline: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+    padding: 0 150px 0 150px;
+}
+footer > ul{
+    list-style: none;
+    margin: 0 auto;
+}
+footer > ul > li{
+                display: block;
+                width: 200px;
+                height: 71px;
+                border-right: 1px solid #dfdfdf;
+                float: left;
+                color:#c9c9c9;
+                text-align: center;
+                padding-right: 15px;
+                padding-top: 20px;
+                box-sizing:border-box;
+                font-family: "Arial";
+}
+footer > ul > li.folow > p{
+                    float: left;
+                    margin-left: 22%;
+                    margin-top: 6px;
+    }
+footer > ul > li.folow > a {
+                    float: right;
+                    margin: 5px;
+                    display: block;
+}
+footer > ul > li.two > a {
+    float: left;
+    margin: 5px 20px;
+    display: block;
+}
+footer > ul > li.two > p{
+    float: left;
+    margin-top: 6px;
+}
+footer > ul > li:last-child{
+                border: none;
+                width: 700px;
+}
+footer > ul > li.last{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+footer > ul > li.last > p{
+    float: left;
+    margin-top: 10px;
+}
+div.email{
+    width:280px;
+    background: #e0e0e0;
+    border-radius: 8px;
+    height:45px;
+    padding-left: 15px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+div.email>input.adress{
+    border: none; 
+    outline: none;
+    height: 45px;
+    width:190px;
+    font-style: italic;
+    background: #e0e0e0;
+    font-family: "Arial Narrow", sans-serif;
+    color:#959595;
+}
+div.email>.buttonEmail{
+    background-color: #be231b;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.company{
+    text-align: center;
+    font-family: "Arial";
+    font-size: 12px;
+    margin-bottom: 20px;
+    color:#cccccc;
+}
+.company > img{
+    margin: 0px 20px;
 }
