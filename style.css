@@ -229,11 +229,13 @@ section.reviews{
     width: 100%;
     height: 500px;
     position: relative;
+    background-color: #a41b15;
 }
 section.reviews > .svg{
     position: absolute;
     bottom: -40%;
     width: 100%;
+    z-index: 1000;
 }
 .review{
     width: 480px;
@@ -288,4 +290,49 @@ section.reviews > .svg{
 }
 .review > button:active{
     margin-top: 25px;
+}
+.gallery{
+    width: 55%;
+}
+.aboutUs{
+    width: 100%;
+    height: 500px;
+    background-color: #a41b15;
+    padding-top: 370px;
+}
+.gallery > img{
+    float: left;
+    margin: 0;
+}
+.noneFloat{
+    float: none;
+}
+.textAbout{
+    width: 50%;
+    height:500px;
+    margin-left: 52%;
+    z-index: 999;
+    background:url(img/inst/background.png) no-repeat;
+    color: white;
+    position: relative;
+}
+.textAbout h3{
+    position: absolute;
+    text-align: right;
+    font-family: "Arial Narrow";
+    top: 46%;
+    left: 60%;
+    font-style: italic;
+    font-size: 32px;
+}
+.textAbout p{
+    position: absolute;
+    text-align: right;
+    font-family: "Arial Narrow";
+    top: 56%;
+    left: 12%;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+    width: 450px;
 }
