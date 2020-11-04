@@ -21,7 +21,7 @@ header{
     color: #ffffff;
     font-style: italic;
     font-family: "Arial Narrow", sans-serif;
-    font-weight: 50;
+    font-weight: 100;
     font-size: 32px;
     position: absolute;
     top: 30%;
@@ -34,6 +34,8 @@ header{
     width:200px;
     height:145px;
     background: #a41b15;
+    border-radius: 0 0 5% 5%;
+    border-bottom: 1px solid #bb221a;
 }
 #sushi{
     display: block;
@@ -42,6 +44,12 @@ header{
     margin-top: 20px;
     margin-bottom:28px;
 }
+.buttons{
+    border-radius: 0 0 5% 5%;
+    border-top: 1px solid #bb221a;
+    height: 34px;
+    width:200px;
+}
 .buttons>li{
     float: left;
     list-style: none;
@@ -49,14 +57,13 @@ header{
     color: #ffffff;
     padding: 8px;
     display: block;
-    border-top: 1px solid #bb221a;
-    border-bottom: 1px solid #bb221a;
     box-sizing: border-box;
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 14px;
+    height: 34px;
 }
 .buttons>li:first-child{
                         width:34px;
-                        border-top: 1px solid #bb221a;
-                        border-bottom: 1px solid #bb221a;
                         border-right:1px solid #bb221a;
 }
 .buttons>li:last-child{
@@ -87,15 +94,20 @@ div.search>input.poisk{
     font-family: "Arial Narrow", sans-serif;
     color:#d7d3d3;
 }
+div.search>input.poisk:hover{
+cursor: text;
+}
 div.search>.buttonPoisk{
     background-color: #ad1e17;
     border: none;
     outline: none;
     color: white;
     padding: 8px;
-    background-image: url(img/search.png) no-repeat left;
     border-radius: 5px;
     margin-right: 10px;
+}
+div.search>.buttonPoisk:hover{
+    cursor: pointer;
 }
 div.search>.buttonPoisk>img{
     margin-right: 5px;
@@ -137,6 +149,8 @@ ul.food > li > a{
                 opacity: 0.5;
                 filter: grayscale(100%);
                 transition: 0.5s;
+                font-family: "Arial Narrow", sans-serif;
+                font-size: 14px;
 }
 ul.food > li > a > img{
                     margin:0 auto 15px auto;
@@ -205,6 +219,7 @@ p.description{
     font-size: 12px;
     color:#d6d6d6;
     margin: 10px auto 0 auto;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 li.order > button{
     border: none;
@@ -220,6 +235,7 @@ li.order > button{
     height:50px;
     border-radius: 0 0 5% 5%;
     color: #a41b15;
+    cursor: pointer;
 }
 li.order > button:active {
     background-color: #a41b15;
@@ -259,7 +275,7 @@ section.reviews > .svg{
 }
 .who > .text{
     color: #a0a0a0;
-    font-family: "Arial Narrow";
+    font-family: "Arial Narrow", sans-serif;
     font-size: 15px;
     display: block;
     width: 280px;
@@ -268,7 +284,7 @@ section.reviews > .svg{
 .who > .signature{
     color: #000000;
     font-size: 14px;
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     font-weight: bold;
     margin-top: 20px;    
     float: left;
@@ -277,7 +293,7 @@ section.reviews > .svg{
     margin-top: 21px; 
     margin-left: 150px;
     font-size: 12px;
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     color: #a0a0a0;
 }
 .review > button{
@@ -288,6 +304,7 @@ section.reviews > .svg{
     margin-top: 20px;
     transition-property: margin-top;
     transition: 0.1s;
+    cursor: pointer;
 }
 .review > button:active{
     margin-top: 25px;
@@ -320,7 +337,7 @@ section.reviews > .svg{
 .textAbout h3{
     position: absolute;
     text-align: right;
-    font-family: "Arial Narrow";
+    font-family: "Arial Narrow", sans-serif;
     top: 46%;
     left: 60%;
     font-style: italic;
@@ -329,7 +346,7 @@ section.reviews > .svg{
 .textAbout p{
     position: absolute;
     text-align: right;
-    font-family: "Arial Narrow";
+    font-family: "Arial Narrow", sans-serif;
     top: 56%;
     left: 12%;
     font-style: italic;
@@ -360,7 +377,7 @@ footer > ul > li{
                 padding-right: 15px;
                 padding-top: 20px;
                 box-sizing:border-box;
-                font-family: "Arial";
+                font-family: "Arial", sans-serif;
 }
 footer > ul > li.folow > p{
                     float: left;
@@ -413,6 +430,9 @@ div.email>input.adress{
     font-family: "Arial Narrow", sans-serif;
     color:#959595;
 }
+div.email>input.adress{
+cursor: text;
+}
 div.email>.buttonEmail{
     background-color: #be231b;
     border: none;
@@ -422,9 +442,12 @@ div.email>.buttonEmail{
     border-radius: 10px;
     margin-right: 10px;
 }
+div.email>.buttonEmail:hover{
+cursor: pointer;
+}
 .company{
     text-align: center;
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     font-size: 12px;
     margin-bottom: 20px;
     color:#cccccc;
